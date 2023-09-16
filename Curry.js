@@ -72,7 +72,7 @@ const pizza = it1=>it2=>it3=>
 
  // Converting normal function to curried function using curry function
 // Requires a function with fixed number of Parameters
-
+/*
 let curry=(fn)=>{
     console.log(fn.length);
     return curried=(...args)=>{
@@ -92,3 +92,5 @@ let total=(x,y,z)=>x+y+z
 const curryTotal=curry(total)
 
 console.log(curryTotal(10)(20)(30));
+
+*/
